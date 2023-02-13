@@ -1,4 +1,4 @@
-fn=open("areaofcircle9.txt","r")
+fn=open("areaofcircle9.py","r")
 fn1=open("odd.txt","w")
 content=fn.readlines()
 print("content\n",content)

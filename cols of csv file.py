@@ -1,7 +1,7 @@
 import csv
-with open("excel.csv",newline="")as csvfile1:
+with open("excel1.csv",newline="")as csvfile1:
     data=csv.DictReader(csvfile1)
-    print("roll no name")
+    print("ROLL NO NAME")
     print("-------------")
     for row in data:
-        print(row['roll no'],row['name'])
+        print(row['ROLL NO'],row['NAME'])

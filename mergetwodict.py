@@ -1,7 +1,7 @@
-dict_1 = {1: 'a', 2: 'b'}
-dict_2 = {2: 'c', 4: 'd'}
-
-dict_3 = dict_2.copy()
-dict_3.update(dict_1)
-
-print(dict_3)
+d1 = {'a':100,'b':200}
+d2 = {'x':300,'y':200}
+print("Dictionary 1=",d1)
+print("Dictionary 2=",d1)
+d=d1.copy()
+d.update(d2)
+print("merged Dictionary:",d)
